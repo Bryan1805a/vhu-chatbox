@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="../web_ui/css/style.css">
 </head>
 <body>
-    <div id="main">
-        <!-- Left Side Bar -->
-        <section class="side_bar">
-            <div class="basic_functions">
-                <div class="collapse_button">|||</div>
-                <div class="search_button"> Search chat</div>
-            </div>
-        </section>
-
-        <!-- Right Chat Window -->
-        <section class="chat_window">
-            <div class="chat_window_header">
-                <div class="header">VHU Chatbox</div>
-                <div class="account_icon">?</div>
+    <div id="main_container">
+        <div class="left_side_bar">
+            <div class="side_bar_settings">
+                <button class="colapse_side_bar_button">Colapse</button>
+                <button class="search_button">Search</button>
             </div>
 
-            <div class="text_box">
-
+            <div class="chat_settings">
+                <button class="new_chat_button">New Chat</button>
+                <button class="temporary_chat_button">Temporary Chat</button>
             </div>
-        </section>
+
+            <div class="chat_history_panel">
+                <p>Chat History</p>
+            </div>
+        </div>
+
+        <div class="right_chat_box">
+
+        </div>
     </div>
 </body>
 </html>
